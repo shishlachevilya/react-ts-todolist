@@ -2,11 +2,11 @@ import React from 'react';
 
 import './Header.css';
 
-interface IProps {
+interface IHeaderProps {
   title: string
 }
 
-const Header = ({title}: IProps) => {
+const Header = ({title}: IHeaderProps) => {
   return (
     <h1>{title}</h1>
   );

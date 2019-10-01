@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.form input {
+  margin-right: 20px;
+}
+
+.form button {
+  flex-shrink: 0;
+}
